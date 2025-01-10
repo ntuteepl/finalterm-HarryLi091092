@@ -3,6 +3,7 @@
 #include <vector>
 #include <ctime>
 #include <iomanip>
+#include <limits>
 using namespace std;
 
 #define peopleType 6
