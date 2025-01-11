@@ -4,6 +4,7 @@
 #include <ctime>
 #include <iomanip>
 #include <limits>
+#include <stdlib.h>
 using namespace std;
 
 #define peopleType 6
