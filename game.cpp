@@ -685,7 +685,7 @@ bool battle(pTeam pteam, mTeam mteam)
               else
                 damage = pteam.pMember[pOrder[p]]->getAttack() / mteam.getCount(2);
               for (int i = 0; i < mteam.getCount(3); i++)
-                if (mteam.mMember[i]->getTrait() != "Satan" && mteam.mMember[i]->getHP() > 0)
+                if (mteam.mMember[i]->getTrait() == "Satan" && mteam.mMember[i]->getHP() > 0)
                   mteam.mMember[i]->setHP(mteam.mMember[i]->getHP() - (damage - mteam.mMember[i]->getDefense()));
             }
           }
@@ -998,7 +998,7 @@ bool battle(pTeam pteam, mTeam mteam)
               else
                 damage = pteam.pMember[pOrder[p]]->getAttack() / mteam.getCount(2);
               for (int i = 0; i < mteam.getCount(3); i++)
-                if (mteam.mMember[i]->getTrait() != "Satan" && mteam.mMember[i]->getHP() > 0)
+                if (mteam.mMember[i]->getTrait() == "Satan" && mteam.mMember[i]->getHP() > 0)
                   mteam.mMember[i]->setHP(mteam.mMember[i]->getHP() - (damage - mteam.mMember[i]->getDefense()));
             }
           }
