@@ -1079,7 +1079,7 @@ int main()
     getline(cin, teamName);
   }
   pteam.setName(teamName);
-  cout << "Please enter added membeer information(Enter 0 to finish) : name(under 32 characters) career(1~6) level(1~20) (ex. Harry 2 5)"
+  cout << "Please enter added membeer information(Enter 0 to finish) : name(under 32 characters) career(1~6) level(1~50) (ex. Harry 2 5)"
        << endl
        << "career option (1)Warior (2)Wizard (3)Assassin (4)Archer (5)Tank (6)Healer\nEnter:\n";
   // 輸入團隊成員
